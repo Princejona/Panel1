@@ -477,14 +477,14 @@ systemctl enable openvpn
 
 pythonproxyinstall () {
 apt-get install netcat lsof php php-mysqli php-mysql php-gd php-mbstring python -y > /dev/null 2>&1
-wget -O /bin/proxy.py pinoyvpnscript.000webhostapp.com/proxy -q
-wget -O /bin/proxy2.py pinoyvpnscript.000webhostapp.com/proxy2 -q
-wget -O /bin/proxy3.py pinoyvpnscript.000webhostapp.com/proxy3 -q
-wget -O /bin/auto pinoyvpnscript.000webhostapp.com/auto -q
+wget -O /bin/proxy.py https://raw.githubusercontent.com/Princejona/Pinoyscript/main/proxy -q
+wget -O /bin/proxy2.py https://raw.githubusercontent.com/Princejona/Pinoyscript/main/proxy2 -q
+wget -O /bin/proxy3.py https://raw.githubusercontent.com/Princejona/Pinoyscript/main/proxy3 -q
+wget -O /bin/auto https://raw.githubusercontent.com/Princejona/Pinoyscript/main/auto -q
 chmod +x /bin/auto
 /bin/auto;
 
-wget pinoyvpnscript.000webhostapp.com/badvpn-udpgw -q
+wget https://github.com/Princejona/Pinoyscript/raw/main/badvpn-udpgw -q
 mv -f badvpn-udpgw /bin/badvpn-udpgw
 chmod 777 /bin/badvpn-udpgw
 
@@ -530,7 +530,7 @@ Query="SELECT user_name FROM users WHERE user_name='$username' AND auth_vpn=md5(
 user_name=`mysql -u $USER -p$PASS -D $DB -h $HOST -sN -e "$Query"`
 [ "$user_name" != '' ] && [ "$user_name" = "$username" ] && echo "user : $username" && echo 'authentication ok.' && exit 0 || echo 'authentication failed.'; exit 1
 EOM
-wget -O /usr/local/sbin/ssh.php pinoyvpnscript.000webhostapp.com/prem.sh -q
+wget -O /usr/local/sbin/ssh.php https://raw.githubusercontent.com/Princejona/Pinoyscript/main/prem.sh -q
 }
 
 vipcategory () {
@@ -541,7 +541,7 @@ Query="SELECT user_name FROM users WHERE user_name='$username' AND auth_vpn=md5(
 user_name=`mysql -u $USER -p$PASS -D $DB -h $HOST -sN -e "$Query"`
 [ "$user_name" != '' ] && [ "$user_name" = "$username" ] && echo "user : $username" && echo 'authentication ok.' && exit 0 || echo 'authentication failed.'; exit 1
 EOM
-wget -O /usr/local/sbin/ssh.php pinoyvpnscript.000webhostapp.com/vip.sh -q
+wget -O /usr/local/sbin/ssh.php https://raw.githubusercontent.com/Princejona/Pinoyscript/main/vip.sh -q
 }
 
 privatecategory () {
@@ -552,7 +552,7 @@ Query="SELECT user_name FROM users WHERE user_name='$username' AND auth_vpn=md5(
 user_name=`mysql -u $USER -p$PASS -D $DB -h $HOST -sN -e "$Query"`
 [ "$user_name" != '' ] && [ "$user_name" = "$username" ] && echo "user : $username" && echo 'authentication ok.' && exit 0 || echo 'authentication failed.'; exit 1
 EOM
-wget -O /usr/local/sbin/ssh.php pinoyvpnscript.000webhostapp.com/private.sh -q
+wget -O /usr/local/sbin/ssh.php https://raw.githubusercontent.com/Princejona/Pinoyscript/main/private.sh -q
 }
 
 
