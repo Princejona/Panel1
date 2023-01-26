@@ -295,10 +295,10 @@ EOM
 
 cat <<\EOM >/etc/openvpn/script/config.sh
 #!/bin/bash
-HOST='webhosting2046.is.cc'
-USER='stspinoy_mainpanel'
-PASS='&9Q&!8**(J=S'
-DB='stspinoy_mainpanel'
+HOST='mysql1.blazingfast.io'
+USER='vpnngpin_dave01'
+PASS='pinoytayo2021'
+DB='vpnngpin_dave01'
 EOM
 
 cat <<\EOM >/etc/openvpn/script/connect.sh
