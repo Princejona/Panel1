@@ -2,10 +2,10 @@
 error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
-$DB_host = 'webhosting2046.is.cc';
-$DB_user = 'stspinoy_mainpanel';
-$DB_pass = '&9Q&!8**(J=S';
-$DB_name = 'stspinoy_mainpanel';
+$DB_host = 'mysql1.blazingfast.io';
+$DB_user = 'vpnngpin_dave01';
+$DB_pass = 'pinoytayo2021';
+$DB_name = 'vpnngpin_dave01';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
