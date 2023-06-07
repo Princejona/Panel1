@@ -4,7 +4,7 @@ ini_set('display_errors', '1');
 
 $DB_host = 'mysql1.blazingfast.io';
 $DB_user = 'vpnngpin_dave01';
-$DB_pass = 'pinoytayo2021';
+$DB_pass = 'uWCUR&94Qe~$';
 $DB_name = 'vpnngpin_dave01';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
