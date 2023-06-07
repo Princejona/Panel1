@@ -297,7 +297,7 @@ cat <<\EOM >/etc/openvpn/script/config.sh
 #!/bin/bash
 HOST='mysql1.blazingfast.io'
 USER='vpnngpin_dave01'
-PASS='pinoytayo2021'
+PASS='uWCUR&94Qe~$'
 DB='vpnngpin_dave01'
 EOM
 
