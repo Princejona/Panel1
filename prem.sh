@@ -2,10 +2,10 @@
 error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
-$DB_host = '66.45.234.10';
-$DB_user = 'mttunnel_dave01';
+$DB_host = 'mysql2.blazingfast.io';
+$DB_user = 'vpnngpin_dave01';
 $DB_pass = 'uWCUR&94Qe~$';
-$DB_name = 'mttunnel_dave01';
+$DB_name = 'vpnngpin_dave01';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
