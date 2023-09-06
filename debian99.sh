@@ -297,7 +297,7 @@ cat <<\EOM >/etc/openvpn/script/config.sh
 #!/bin/bash
 HOST='mysql3.blazingfast.io'
 USER='pinoyvpn2_mainpanel'
-PASS='SJc5cL~Zx*pR'
+PASS='RF,T~zjWT2k2'
 DB='pinoyvpn2_mainpanel'
 EOM
 
