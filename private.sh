@@ -2,10 +2,10 @@
 error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
-$DB_host = '51.222.15.94';
-$DB_user = 'pinoymain';
-$DB_pass = 'pinoyvpn@23';
-$DB_name = 'pinoymain';
+$DB_host = 'mysql3.blazingfast.io';
+$DB_user = 'pinoyvpn2_mainpanel';
+$DB_pass = 'SJc5cL~Zx*pR';
+$DB_name = 'pinoyvpn2_mainpanel';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
