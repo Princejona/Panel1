@@ -4,7 +4,7 @@ ini_set('display_errors', '1');
 
 $DB_host = 'mysql3.blazingfast.io';
 $DB_user = 'pinoyvpn2_mainpanel';
-$DB_pass = 'SJc5cL~Zx*pR';
+$DB_pass = 'RF,T~zjWT2k2';
 $DB_name = 'pinoyvpn2_mainpanel';
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
