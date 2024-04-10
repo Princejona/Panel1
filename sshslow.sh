@@ -676,7 +676,7 @@ cat <<\EOM > /root/dnstt/dnstt-server/server.key
 EOM
 
 cat <<\EOM > /root/dnstt/dnstt-server/server.pub
-5d30d19aa2524d7bd89afdffd9c2141575b21a728ea61c8cd7c8bf3839f97032
+8428c0cfc1c81674830336b6383eeb1522e248876a6cc707f1aa32becf524c27
 EOM
 
 NSNAME="$(cat /root/ns.txt)"
@@ -782,9 +782,9 @@ installing_api(){
 clear
 echo 'Installing Api.'
 {
-VPN_Owner='YModifiedPH';
-API_LINK='team.ymodified.online/api/premium';
-API_KEY='YModified';
+VPN_Owner='Pinoyvpn';
+API_LINK='pinoyvpn.net/api/authentication/premium';
+API_KEY='ok';
 
 cat <<EOF >/root/authentication.sh
 #!/bin/bash
